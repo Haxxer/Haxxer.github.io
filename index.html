@@ -1,347 +1,354 @@
 <!DOCTYPE html>
-<html lang="en"> 
-	<head>
-	    <title>Adam Oresten - Lead Technical Animator</title>
-	    
-	    <!-- Meta -->
-	    <meta charset="utf-8">
-	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	    <meta name="description" content="Adam Oresten - Lead Technical Animator">
-	    <meta name="author" content="Adam Oresten's technical animation resume">    
-	    <link rel="shortcut icon" href="favicon.ico"> 
-	    
-	    <!-- Google Font -->
-	    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
-	    
-	    <!-- FontAwesome JS-->
-	    <script defer src="https://use.fontawesome.com/releases/v5.1.1/js/all.js" integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a" crossorigin="anonymous"></script>
-	       
-	    <!-- Theme CSS -->  
-	    <link id="theme-style" rel="stylesheet" href="assets/css/pillar-5.css">
+<html lang="en">
+<head>
+	<title>Adam Oresten - Lead Technical Animator</title>
+
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Adam Oresten - Lead Technical Animator">
+	<meta name="author" content="Adam Oresten's technical animation resume">
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+
+	<!-- FontAwesome JS-->
+	<script src="https://kit.fontawesome.com/8448620b58.js" crossorigin="anonymous"></script>
+
+	<!-- Theme CSS -->
+	<link id="theme-style" rel="stylesheet" href="assets/css/pillar-5.css">
+
+	<style lang="css">
+
+      @media print {
+          /* All your print styles go here */
+
+      }
+
+	</style>
+
+	<script type="text/javascript" defer>
+
+		const zeroPad = (num, places) => String(num).padStart(places, '0')
+
+		function init() {
+			let months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+			let tomorrow = new Date();
+			tomorrow.setTime(tomorrow.getTime() + (1000 * 3600 * 24));
+			document.getElementById("spanDate").innerHTML = zeroPad(tomorrow.getMonth(), 2) + "/" + tomorrow.getFullYear() + " (present)";
+		}
+
+		window.onload = init;
+	</script>
 
 
-	</head> 
+</head>
 
-	<body>
-	    <article class="resume-wrapper text-center position-relative">
-		    <div class="resume-wrapper-inner mx-auto text-left bg-white shadow-lg">
-			    <header class="resume-header pt-4 pt-md-0">
-				    <div class="media flex-column flex-md-row">
-					    <img class="mr-3 img-fluid picture mx-auto" src="assets/images/profile.jpg" alt="">
-					    <div class="media-body p-4 d-flex flex-column flex-md-row mx-auto mx-lg-0">
-						    <div class="primary-info">
-							    <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">Adam Oresten</h1>
-							    <div class="title mb-3">Lead Technical Animator</div>
-							    <ul class="list-unstyled">
-								    <li class="mb-2"><a href="#"><i class="far fa-envelope fa-fw mr-2" data-fa-transform="grow-3"></i>adamoresten@gmail.com</a></li>
-							    </ul>
-						    </div><!--//primary-info-->
-						    <div class="secondary-info ml-md-auto mt-2">
-							    <ul class="resume-social list-unstyled">
-					                <li class="mb-3"><a target="_blank" href="https://www.linkedin.com/in/adam-oresten-36218a82"><span class="fa-container text-center mr-2"><i class="fab fa-linkedin-in fa-fw"></i></span>LinkedIn</a></li>
-					                <li class="mb-3"><a target="_blank" href="https://github.com/Haxxer"><span class="fa-container text-center mr-2"><i class="fab fa-github-alt fa-fw"></i></span>GitHub</a></li>
-							    </ul>
-						    </div><!--//secondary-info-->
-					    </div><!--//media-body-->
-				    </div><!--//media-->
-			    </header>
-			    <div class="resume-body p-5">
-				    <section class="resume-section summary-section mb-5">
-					    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Career Summary</h2>
-					    <div class="resume-section-content">
-						    <p>I got into game development early in life, starting my journey by hacking games. I'd inspect their hex codes to export characters, props, and other assets, which I then converted, re-rigged, and imported into <a href='https://gmod.facepunch.com/' target="_blank">Garry's Mod</a>. This early experimentation ignited my passion for game development, pushing me to pursue formal education in the field.</p>
-						    <p>I went to New Zealand to study at <a href="https://www.mediadesignschool.com/" target="_blank">Media Design School</a> and earned my Bachelor of Creative Technologies. Over three years, I learned the fundamentals and workflows of game development from industry veterans. In my final year, I specialized in rigging, pipeline work, and tool scripting. After graduation, I joined Bohemia Interactive, where I helped establish animation tools, pipelines, rigs, engine solutions, and more. After nearly five years at the company, we launched DayZ with its 1.0 release.</p>
-						    <p>Following the release of DayZ, I joined Rocksteady, where I was responsible for maintaining tools, rigs, and workflows in Motionbuilder. I also created asset and rigging tools used daily by several departments and set up character and gameplay asset rigs in 3ds Max, Motionbuilder, and Unreal Engine.</p>
-						    <p class="mb-0">At Rocksteady, I was later promoted to Lead Technical Animator, not just because of my technical skills but also my strong interpersonal abilities; I helped foster a collaborative environment between the technical animation team and the content teams, ensuring smooth communication and coordination.</p>
-					    </div>
-				    </section><!--//summary-section-->
-				    <div class="row">
-					    <div class="col-lg-9">
-						    <section class="resume-section experience-section mb-3">
-							    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Work Experience</h2>
-							    <div class="resume-section-content">
-								    <div class="resume-timeline position-relative">
-									    <article class="resume-timeline-item position-relative pb-4">
-										    <div class="resume-timeline-item-header mb-2">
-											    <div class="d-flex flex-column flex-md-row">
-											        <div class="resume-position-title">
-											        	<h3 class='font-weight-bold m-0'>Lead Technical Animator</h3><p class='font-italic mb-1'>Rocksteady Studios</p>
-													</div>
-											        <div class="resume-company-logo ml-auto"><a href="https://rocksteadyltd.com/" title="Rocksteady Studios Ltd" target="_blank"><img src="assets/images/rocksteady.png"/></a></div>
-											    </div><!--//row-->
-											    <div class="resume-position-time">Feb 2024 - Present</div>
-										    </div><!--//resume-timeline-item-header-->
-										    <div class="resume-timeline-item-desc">
-											    <p>Demonstrating leadership and initiative, I was later promoted to Lead Technical Animator. In this role, I led a team of 4 technical animators, fostering a collaborative environment and mentoring junior members to enhance their skills.</p>
-										    </div><!--//resume-timeline-item-desc-->
-									    </article><!--//resume-timeline-item-->
-									    <article class="resume-timeline-item position-relative pb-4">
-										    <div class="resume-timeline-item-header mb-2">
-											    <div class="d-flex flex-column flex-md-row">
-											        <div class="resume-position-title">
-											        	<h3 class='font-weight-bold m-0'>Senior Technical Animator</h3><p class='font-italic mb-1'>Rocksteady Studios</p>
-													</div>
-											        <div class="resume-company-logo ml-auto"><a href="https://rocksteadyltd.com/" title="Rocksteady Studios Ltd" target="_blank"><img src="assets/images/rocksteady.png"/></a></div>
-											    </div><!--//row-->
-											    <div class="resume-position-time">Jan 2023 - Feb 2024</div>
-										    </div><!--//resume-timeline-item-header-->
-										    <div class="resume-timeline-item-desc">
-											    <p>I joined Rocksteady Studios as a Technical Animator, and was later promoted to a Senior Technical Animator. When I joined, I took over responsibility maintaining our Motionbuilder tools, where I delivered a number of tools and solutions to make our animators' life easier. Over the course of the project, I've rigged half a dozen hero-level characters, and several gameplay and cinematic assets.</p>
-											    <h4 class="resume-timeline-item-desc-heading"><a href="https://www.suicidesquadgame.com/en-us" target="_blank"><i class="fas fa-link pb-1"></i> Suicide Squad: Kill The Justice League</a></h4>
-											    <hr>
-											    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
-											    <ul class="list-inline">
-													<li class="list-inline-item"><span class="badge badge-primary badge-pill">Python</span></li>
-													<li class="list-inline-item"><span class="badge badge-primary badge-pill">Maya</span></li>
-													<li class="list-inline-item"><span class="badge badge-primary badge-pill">Motionbuilder</span></li>
-													<li class="list-inline-item"><span class="badge badge-primary badge-pill">3ds Max</span></li>
-													<li class="list-inline-item"><span class="badge badge-primary badge-pill">Houdini</span></li>
-													<li class="list-inline-item"><span class="badge badge-primary badge-pill">Perforce</span></li>
-													<li class="list-inline-item"><span class="badge badge-primary badge-pill">Unreal Engine 4</span></li>
-											    </ul>
-										    </div><!--//resume-timeline-item-desc-->
-									    </article><!--//resume-timeline-item-->
-									    <article class="resume-timeline-item position-relative pb-4">
-										    <div class="resume-timeline-item-header mb-2">
-											    <div class="d-flex flex-column flex-md-row">
-											        <div class="resume-position-title">
-											        	<h3 class='font-weight-bold m-0'>Technical Animator</h3><p class='font-italic mb-1'>Rocksteady Studios</p>
-													</div>
-											        <div class="resume-company-logo ml-auto"><a href="https://rocksteadyltd.com/" title="Rocksteady Studios Ltd" target="_blank"><img src="assets/images/rocksteady.png"/></a></div>
-											    </div><!--//row-->
-											    <div class="resume-position-time">Jun 2019 - Dec 2022</div>
-										    </div><!--//resume-timeline-item-header-->
-									    </article><!--//resume-timeline-item-->
-									    <article class="resume-timeline-item position-relative pb-4">
-										    <div class="resume-timeline-item-header mb-2">
-											    <div class="d-flex flex-column flex-md-row">
-											        <div class="resume-position-title">
-											        	<h3 class='font-weight-bold m-0'>Technical Animator</h3><p class='font-italic mb-1'>Bohemia Interactive</p>
-													</div>
-											        <div class="resume-company-logo ml-auto"><a href="https://www.bohemia.net/" title="Bohemia Studios s.r.o." target="_blank"><img src="assets/images/bohemia.png"/></a></div>
-											    </div><!--//row-->
-											    <div class="resume-position-time">Jan 2017 - Jun 2019</div>
-										    </div><!--//resume-timeline-item-header-->
-										    <div class="resume-timeline-item-desc">
-											    <p>I joined Bohemia as a Junior Technical Animator, and I was promoted to Technical Animator halfway through my second year. During my time at Bohemia, I established animation pipelines, wrote scripts for multiple departments, created character and weapon rigs, cleaned up and organized vast amounts of motion capture data, collaborated closely with animation and engine programmers, audio departments, designers, and other animators.</p>
-											    <h4 class="resume-timeline-item-desc-heading"><a href="https://dayz.com/" target="_blank"><i class="fas fa-link pb-1"></i> DayZ</a></h4>
-											    <ul>
-											    	<li>Created tools and defined pipelines for animation workflows</li>
-													<li>Created and maintained the player animation state machine and constantly refined its behavior</li>
-													<li>Worked closely with the DayZ team to define, create, and maintain the animation pipeline</li>
-													<li>Analyzed and developed solutions to aid animators and sound designers' workflows</li>
-													<li>Directed motion capture actors for a large array of animations</li>
-													<li>Collaborated with technical designers to develop animation tools</li>
-													<li>Documented in-house animation tools and systems</li>
-													<li>Created weapon rigs for a multitude of firearms</li>
-													<li>Researched cinematic workflows and animated characters for use in cinematic trailers</li>
-													<li>Created a large quantity of gameplay animations through motion capture data and keyframe animation</li>
-											    </ul>
-											    <h4 class="resume-timeline-item-desc-heading"><a href="https://vigorgame.com/" target="_blank"><i class="fas fa-link pb-1"></i> Vigor</a></h4>
-											    <ul>
-											    	<li>Oversaw research and development for character implementations in engine</li>
-													<li>Rigged and implemented characters and weapons</li>
-													<li>Researched and created workflows for cinematic trailers</li>
-											    </ul>
-											    <h4 class="resume-timeline-item-desc-heading"><a href="https://incubator.bohemia.net/games/lucie" target="_blank"><i class="fas fa-link pb-1"></i> Project Lucie</a></h4>
-											    <ul>
-											    	<li>Rigged and animated cutscenes</li>
-											    </ul>
-											    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
-											    <ul class="list-inline">
-												    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Python</span></li>
-												    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Motionbuilder</span></li>
-												    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Maya</span></li>
-												    <li class="list-inline-item"><span class="badge badge-primary badge-pill">3ds Max</span></li>
-												    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Subversion</span></li>
-												    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Unreal Engine 4</span></li>
-											    </ul>
-										    </div><!--//resume-timeline-item-desc-->
-									    </article><!--//resume-timeline-item-->
-									    <article class="resume-timeline-item position-relative pb-4">
-										    <div class="resume-timeline-item-header mb-2">
-											    <div class="d-flex flex-column flex-md-row">
-											        <div class="resume-position-title">
-											        	<h3 class='font-weight-bold m-0'>Junior Technical Animator</h3><p class='font-italic mb-1'>Bohemia Interactive</p>
-													</div>
-											        <div class="resume-company-logo ml-auto"><a href="https://www.bohemia.net/" title="Bohemia Studios s.r.o." target="_blank"><img src="assets/images/bohemia.png"/></a></div>
-											    </div><!--//row-->
-											    <div class="resume-position-time">Sep 2015 - Jan 2017</div>
-										    </div><!--//resume-timeline-item-header-->
-									    </article><!--//resume-timeline-item-->
-								    </div><!--//resume-timeline-->
-							    </div>
-						    </section><!--//experience-section-->
-						    <section class="resume-section experience-section mb-3">
-							    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Side Projects</h2>
-							    <div class="resume-section-content">
-								    <div class="resume-timeline position-relative">
-									    <article class="resume-timeline-item position-relative pb-4">
-										    
-										    <div class="resume-timeline-item-header mb-2">
-											    <div class="d-flex flex-column flex-md-row">
-											        <div class="resume-position-title"><h3 class='font-weight-bold m-0'>Co-creator</h3><p class='font-italic mb-1'>Fantasy-Calendar</p></div>
-											        <div class="resume-company-logo ml-auto"><a href="https://fantasy-calendar.com/" title="Fantasy-Calendar Ltd" target="_blank"><img src="assets/images/fantasycalendar.png"/></a></div>
-											    </div><!--//row-->
-											    <div class="resume-position-time">2017 - Present</div>
-										    </div><!--//resume-timeline-item-header-->
-										    <div class="resume-timeline-item-desc">
-											    <p>During my free time, I like to play Dungeons & Dragons and take the role of the Dungeon Master, the creator and narrator. In order to make my worlds more immersive, I decided to start tracking time in the fantasy world, and that goal needed a system to support it. Over time, the project grew and gained more and more features, until it became a standalone service used by over ten thousand people worldwide.</p>
-												<p>I created it from scratch, and later on I brought on another person to help me with the back-end, while I kept to the front-end and the calendar code itself.</p>
-												<p><a href="https://fantasy-calendar.com/" target="_blank">https://fantasy-calendar.com/</a></p>
-											    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
-											    <ul class="list-inline">
-												    <li class="list-inline-item"><span class="badge badge-primary badge-pill">JavaScript</span></li>
-												    <li class="list-inline-item"><span class="badge badge-primary badge-pill">HTML</span></li>
-												    <li class="list-inline-item"><span class="badge badge-primary badge-pill">SCSS</span></li>
-												    <li class="list-inline-item"><span class="badge badge-primary badge-pill">PHP</span></li>
-												    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Laravel</span></li>
-												    <li class="list-inline-item"><span class="badge badge-primary badge-pill">MySQL</span></li>
-												    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Git</span></li>
-											    </ul>
-										    </div><!--//resume-timeline-item-desc-->
-									    </article><!--//resume-timeline-item-->
-								    </div><!--//resume-timeline-->
-							    </div>
-						    </section> <!--//experience-section-->
-					    </div>
-					    <div class="col-lg-3">
-						    <section class="resume-section skills-section mb-5">
-							    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Skills &amp; Tools</h2>
-							    <div class="resume-section-content">
-							        <div class="resume-skill-item">
-								        <h4 class="resume-skills-cat font-weight-bold">Languages</h4>
-								        <ul class="list-unstyled mb-4">
-									        <li class="mb-2">
-									            <div class="resume-skill-name">Python (Proficient)</div>
-									        </li>
-									        <li class="mb-2">
-									            <div class="resume-skill-name">C# (Competent)</div>
-									        </li>
-									        <li class="mb-2">
-									            <div class="resume-skill-name">C++ (Beginner)</div>
-									        </li>
-								        </ul>
-							        </div> <!--//resume-skill-item-->
-							        <div class="resume-skill-item">
-							            <h4 class="resume-skills-cat font-weight-bold">Software</h4>
-								        <ul class="list-unstyled">
-									        <li class="mb-2">
-									            <div class="resume-skill-name">Motionbuilder (Proficient)</div>
-									        </li>
-									        <li class="mb-2">
-									            <div class="resume-skill-name">3ds Max (Proficient)</div>
-									        </li>
-									        <li class="mb-2">
-									            <div class="resume-skill-name">Maya (Competent)</div>
-									        </li>
-									        <li class="mb-2">
-									            <div class="resume-skill-name">Houdini (Competent)</div>
-									        </li>
-									        <li class="mb-2">
-									            <div class="resume-skill-name">Blender (Beginner)</div>
-									        </li>
-								        </ul>
-							        </div> <!--//resume-skill-item-->
-							        <div class="resume-skill-item">
-							            <h4 class="resume-skills-cat font-weight-bold">Engines</h4>
-								        <ul class="list-unstyled">
-									        <li class="mb-2">
-									            <div class="resume-skill-name">Unreal Engine 4 (Proficient)</div>
-									        </li>
-									        <li class="mb-2">
-									            <div class="resume-skill-name">Unreal Engine 5 (Competent)</div>
-									        </li>
-									        <li class="mb-2">
-									            <div class="resume-skill-name">Unity (Competent)</div>
-									        </li>
-								        </ul>
-							        </div> <!--//resume-skill-item-->
-							        <div class="resume-skill-item">
-							            <h4 class="resume-skills-cat font-weight-bold">Others</h4>
-							            <ul class="list-inline">
-								            <li class="list-inline-item"><span class="badge badge-light">Git</span></li>
-								            <li class="list-inline-item"><span class="badge badge-light">Perforce</span></li>
-								            <li class="list-inline-item"><span class="badge badge-light">Subversion</span></li>
-								            <li class="list-inline-item"><span class="badge badge-light">Code Review</span></li>
-								            <li class="list-inline-item"><span class="badge badge-light">Agile</span></li>
-								            <li class="list-inline-item"><span class="badge badge-light">Photoshop</span></li>
-								            <li class="list-inline-item"><span class="badge badge-light">After Effects</span></li>
-								            <li class="list-inline-item"><span class="badge badge-light">JavaScript</span></li>
-								            <li class="list-inline-item"><span class="badge badge-light">HTML/CSS/SCSS</span></li>
-							            </ul>
-							        </div><!--//resume-skill-item-->
-							    </div><!--resume-section-content-->
-						    </section><!--//skills-section-->
-						    <section class="resume-section education-section mb-5">
-							    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Education</h2>
-							    <div class="resume-section-content">
-								    <ul class="list-unstyled">
-									    <li class="mb-2">
-									        <div class="resume-degree font-weight-bold">Bachelor of Creative Technologies</div>
-									        <div class="resume-degree-org">Media Design School</div>
-									        <div class="resume-degree-time">2012 - 2015</div>
-									    </li>
-								    </ul>
-							    </div>
-						    </section><!--//education-section-->
-						    <section class="resume-section reference-section mb-5">
-							    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Awards</h2>
-							    <div class="resume-section-content">
-								    <ul class="list-unstyled resume-awards-list">
-									    <li class="mb-2 pl-4 position-relative">
-									        <i class="resume-award-icon fas fa-trophy position-absolute" data-fa-transform="shrink-2"></i>
-									        <div class="resume-award-name">Game of the Year Finalist</div>
-									        <div class="resume-award-author"><a href="https://www.awn.com/news/2015-cg-student-awards-winners-announced" target="_blank"><i class="fas fa-link pb-1"></i>CG Student Awards</a></div>
-									        <div class="resume-award-desc">In my final year, our team entered with our project Dungeon Town. We were one of four highly recommended games selected by the CGStudent Awards jury.</div>
-									    </li>
-								    </ul>
-							    </div>
-							    <div class="resume-section-content">
-								    <ul class="list-unstyled resume-awards-list">
-									    <li class="mb-2 pl-4 position-relative">
-									        <i class="resume-award-icon fas fa-trophy position-absolute" data-fa-transform="shrink-2"></i>
-									        <div class="resume-award-name">Top Student Award</div>
-									        <div class="resume-award-author">Media Design School</div>
-									        <div class="resume-award-desc">I was presented with the prize for having the highest GPA of my year.</div>
-									    </li>
-								    </ul>
-							    </div>
-						    </section><!--//interests-section-->
-						    <section class="resume-section language-section mb-5">
-							    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Language</h2>
-							    <div class="resume-section-content">
-								    <ul class="list-unstyled resume-lang-list">
-									    <li class="mb-2"><span class="resume-lang-name font-weight-bold">Swedish</span> <small class="text-muted font-weight-normal">(Native)</small></li>
-									    <li class="mb-2"><span class="resume-lang-name font-weight-bold">English</span> <small class="text-muted font-weight-normal">(Fluent)</small></li>
-								    </ul>
-							    </div>
-						    </section><!--//language-section-->
-						    <section class="resume-section interests-section mb-5">
-							    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Interests</h2>
-							    <div class="resume-section-content">
-								    <ul class="list-unstyled">
-									    <li class="mb-1">Dungeons & Dragons</li>
-									    <li class="mb-1">Baking</li>
-									    <li class="mb-1">Weightlifting</li>
-									    <li class="mb-1">Warhammer 40k</li>
-								    </ul>
-							    </div>
-						    </section><!--//interests-section-->
-					    </div>
-				    </div><!--//row-->
-			    </div><!--//resume-body-->
-		    </div>
-	    </article>  
+<body>
+<article class="resume-wrapper text-center position-relative">
+	<div class="resume-wrapper-inner mx-auto text-left bg-white shadow-lg">
+		<header class="resume-header pt-4 pt-md-0">
+			<div class="media flex-column flex-md-row">
+				<img class="mr-3 img-fluid picture mx-auto" src="assets/images/profile.jpg" alt="">
+				<div class="media-body p-4 d-flex flex-column flex-md-row mx-auto mx-lg-0">
+					<div class="primary-info">
+						<h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">Adam Oresten</h1>
+						<div class="title mb-3">Lead Technical Animator</div>
+						<ul class="list-unstyled">
+							<li class="mb-2"><a href="#"><i class="far fa-envelope fa-fw mr-2" data-fa-transform="grow-3"></i>adamoresten@gmail.com</a>
+							</li>
+						</ul>
+					</div><!--//primary-info-->
+					<div class="secondary-info ml-md-auto mt-2">
+						<ul class="resume-social list-unstyled">
+							<li class="mb-3"><a target="_blank" href="https://www.linkedin.com/in/adam-oresten-36218a82"><span
+								class="fa-container text-center mr-2"><i class="fab fa-linkedin-in fa-fw"></i></span>LinkedIn</a></li>
+							<li class="mb-3"><a target="_blank" href="https://www.artstation.com/adamoresten9"><span
+								class="fa-container text-center mr-2"><i class="fab fa-artstation"></i></i></span>ArtStation</a></li>
+						</ul>
+					</div><!--//secondary-info-->
+				</div><!--//media-body-->
+			</div><!--//media-->
+		</header>
+		<div class="resume-body p-5">
+			<section class="resume-section summary-section mb-4">
+				<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Career Summary</h2>
+				<div class="resume-section-content">
+					<p>I am a Technical Animator with a strong foundation in tool development, rigging systems, and animation pipelines for AAA games.</a>
+					</p>
+					<p>Starting from early technical experimentation in game modding in my youth, I pursued formal training at Media Design School before joining Bohemia Interactive, where I helped build animation workflows and tools for DayZ’s 1.0 release.</p>
+					<p>At Rocksteady Studios, I expanded into cross-DCC pipeline development, gameplay asset rigging, and MotionBuilder tool creation, leading to my promotion to Lead. I now drive both technical innovation and cross-discipline collaboration to deliver scalable animation workflows for AAA production.</p>
+				</div>
+			</section><!--//summary-section-->
+			<div class="row">
+				<div class="col-lg-9">
+					<section class="resume-section experience-section mb-3">
+						<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Work Experience</h2>
+						<div class="resume-section-content">
+							<div class="resume-timeline position-relative">
+								<article class="resume-timeline-item position-relative pb-4">
+									<div class="resume-timeline-item-header mb-2">
+										<div class="d-flex flex-column flex-md-row">
+											<div class="resume-position-title">
+												<h3 class='font-weight-bold m-0'>Rocksteady Studios</h3>
+												<p class='font-italic mb-1'>Lead Technical Animator</p>
+											</div>
+											<div class="resume-company-logo ml-auto"><a href="https://rocksteadyltd.com/"
+											                                            title="Rocksteady Studios Ltd" target="_blank"><img
+												src="assets/images/rocksteady.png"/></a></div>
+										</div><!--//row-->
+										<div class="resume-position-time">02/2024 - <span id="spanDate"></span></div>
+									</div><!--//resume-timeline-item-header-->
+									<div class="resume-timeline-item-desc">
+										<h4 class="resume-timeline-item-desc-heading"><a href="https://www.suicidesquadgame.com/en-us"
+										                                                 target="_blank"><i class="fas fa-link pb-1"></i>
+											Suicide Squad: Kill The Justice League</a></h4>
+										<ul>
+											<li>Maintained and expanded Motionbuilder scene management tools, including asset versioning and scene metadata packaging
+											</li>
+											<li>Built a universal retargeting tool for Motionbuilder, supporting animation transfer across custom and HIK rigs
+											</li>
+											<li>Developed a non-destructive Motionbuilder animation export pipeline for complex scene workflows</li>
+											<li>Implemented per-asset skeleton serialization and deserialization to speed up skinning and rigging processes</li>
+											<li>Refactored the facial rig skinning decomposition pipeline, improving processing speed by 20x</li>
+											<li>Built an automated photogrammetry processing pipeline integrated with TeamCity</li>
+											<li>Rigged and skinned numerous high-quality DC characters, including Harley Quinn and Captain Boomerang
+											</li>
+										</ul>
+									</div><!--//resume-timeline-item-desc-->
+								</article><!--//resume-timeline-item-->
+								<article class="resume-timeline-item position-relative pb-4">
+									<div class="resume-timeline-item-header mb-2">
+										<div class="d-flex flex-column flex-md-row">
+											<div class="resume-position-title">
+												<h3 class='font-weight-bold m-0'>Rocksteady Studios</h3>
+												<p class='font-italic mb-1'>Senior Technical Animator</p>
+											</div>
+										</div><!--//row-->
+										<div class="resume-position-time">01/2023 - 02/2024</div>
+									</div><!--//resume-timeline-item-header-->
+									<div class="resume-timeline-item-desc">
+									</div><!--//resume-timeline-item-desc-->
+								</article><!--//resume-timeline-item-->
+								<article class="resume-timeline-item position-relative pb-4">
+									<div class="resume-timeline-item-header mb-2">
+										<div class="d-flex flex-column flex-md-row">
+											<div class="resume-position-title">
+												<h3 class='font-weight-bold m-0'>Rocksteady Studios</h3>
+												<p class='font-italic mb-1'>Technical Animator</p>
+											</div>
+										</div><!--//row-->
+										<div class="resume-position-time">06/2019 - 12/2022</div>
+									</div><!--//resume-timeline-item-header-->
+								</article><!--//resume-timeline-item-->
+								<article class="resume-timeline-item position-relative pb-4">
+									<div class="resume-timeline-item-header mb-2">
+										<div class="d-flex flex-column flex-md-row">
+											<div class="resume-position-title">
+												<h3 class='font-weight-bold m-0'>Bohemia Interactive</h3>
+												<p class='font-italic mb-1'>Technical Animator</p>
+											</div>
+											<div class="resume-company-logo ml-auto"><a href="https://www.bohemia.net/"
+											                                            title="Bohemia Studios s.r.o." target="_blank"><img
+												src="assets/images/bohemia.png"/></a></div>
+										</div><!--//row-->
+										<div class="resume-position-time">01/2017 - 06/2019</div>
+									</div><!--//resume-timeline-item-header-->
+									<div class="resume-timeline-item-desc">
+										<h4 class="resume-timeline-item-desc-heading"><a href="https://dayz.com/" target="_blank"><i
+											class="fas fa-link pb-1"></i> DayZ</a></h4>
+										<ul>
+											<li>Developed animation tools and defined pipelines for in-game and cinematic workflows</li>
+											<li>Created and maintained the player animation state machine, regularly refining state behavior and blending
+											</li>
+											<li>Collaborated with animators, sound designers, and technical designers to create and support animation tools and processes</li>
+											<li>Analyzed and developed solutions to aid animators and sound designers' workflows</li>
+											<li>Directed motion capture sessions for gameplay animation capture</li>
+											<li>Collaborated with technical designers to develop animation tools</li>
+											<li>Documented in-house animation tools and systems</li>
+											<li>Built weapon rigs for a variety of firearms used in-game</li>
+											<li>Produced gameplay animations through both motion capture data cleanup and keyframe animation</li>
+											<li>Researched and implemented cinematic workflows for trailers and promotional content</li>
+										</ul>
+										<h4 class="resume-timeline-item-desc-heading"><a href="https://vigorgame.com/" target="_blank"><i
+											class="fas fa-link pb-1"></i> Vigor</a></h4>
+										<ul>
+											<li>Led R&D efforts for character implementation workflows in engine</li>
+											<li>Rigged and implemented character and weapon assets for gameplay and cinematics</li>
+											<li>Researched and established workflows for cinematic trailer production</li>
+										</ul>
+										<h4 class="resume-timeline-item-desc-heading"><a href="https://incubator.bohemia.net/games/lucie"
+										                                                 target="_blank"><i class="fas fa-link pb-1"></i>
+											Project Lucie</a></h4>
+										<ul>
+											<li>Rigged and animated assets for cutscenes</li>
+										</ul>
+									</div><!--//resume-timeline-item-desc-->
+								</article><!--//resume-timeline-item-->
+								<article class="resume-timeline-item position-relative pb-4">
+									<div class="resume-timeline-item-header mb-2">
+										<div class="d-flex flex-column flex-md-row">
+											<div class="resume-position-title">
+												<h3 class='font-weight-bold m-0'>Bohemia Interactive</h3>
+												<p class='font-italic'>Junior Technical Animator</p>
+											</div>
+										</div><!--//row-->
+										<div class="resume-position-time">09/2015 - 01/2017</div>
+									</div><!--//resume-timeline-item-header-->
+								</article><!--//resume-timeline-item-->
+							</div><!--//resume-timeline-->
+						</div>
+					</section><!--//experience-section-->
+				</div>
+				<div class="col-lg-3">
+					<section class="resume-section skills-section mb-5">
+						<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Skills & Tools</h2>
+						<div class="resume-section-content">
+							<div class="resume-skill-item">
+								<h4 class="resume-skills-cat font-weight-bold">Languages</h4>
+								<ul class="list-unstyled mb-4">
+									<li class="mb-2">
+										<div class="resume-skill-name">Python (Proficient)</div>
+									</li>
+									<li class="mb-2">
+										<div class="resume-skill-name">C# (Competent)</div>
+									</li>
+									<li class="mb-2">
+										<div class="resume-skill-name">C++ (Beginner)</div>
+									</li>
+								</ul>
+							</div> <!--//resume-skill-item-->
+							<div class="resume-skill-item">
+								<h4 class="resume-skills-cat font-weight-bold">Software</h4>
+								<ul class="list-unstyled">
+									<li class="mb-2">
+										<div class="resume-skill-name">Maya (Proficient)</div>
+									</li>
+									<li class="mb-2">
+										<div class="resume-skill-name">Motionbuilder (Proficient)</div>
+									</li>
+									<li class="mb-2">
+										<div class="resume-skill-name">3ds Max (Proficient)</div>
+									</li>
+									<li class="mb-2">
+										<div class="resume-skill-name">Houdini (Competent)</div>
+									</li>
+									<li class="mb-2">
+										<div class="resume-skill-name">Blender (Beginner)</div>
+									</li>
+								</ul>
+							</div> <!--//resume-skill-item-->
+							<div class="resume-skill-item">
+								<h4 class="resume-skills-cat font-weight-bold">Engines</h4>
+								<ul class="list-unstyled">
+									<li class="mb-2">
+										<div class="resume-skill-name">Unreal Engine 4 & 5 (Proficient)</div>
+									</li>
+									<li class="mb-2">
+										<div class="resume-skill-name">Unity (Competent)</div>
+									</li>
+								</ul>
+							</div> <!--//resume-skill-item-->
+							<div class="resume-skill-item">
+								<h4 class="resume-skills-cat font-weight-bold">Others</h4>
+								<ul class="list-unstyled">
+									<li class="list-inline-item mb-2">
+										<div class="resume-skill-name"><strong>Version Control:</strong> Git, Perforce, SVN, GitHub</div>
+									</li>
+									<li class="list-inline-item mb-2">
+										<div class="resume-skill-name"><strong>Pipeline & Scripting:</strong> PySide2/Qt, NumPy/SciPy, JavaScript, HTML/CSS/SCSS</div>
+									</li>
+									<li class="list-inline-item mb-2">
+										<div class="resume-skill-name"><strong>Project Tools:</strong> Jira, ShotGrid/Flow</div>
+									</li>
+									<li class="list-inline-item mb-2">
+										<div class="resume-skill-name"><strong>Creative Software:</strong> Photoshop, After Effects</div>
+									</li>
+								</ul>
+							</div><!--//resume-skill-item-->
+						</div><!--resume-section-content-->
+					</section><!--//skills-section-->
+					<section class="resume-section education-section mb-5">
+						<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Education</h2>
+						<div class="resume-section-content">
+							<ul class="list-unstyled">
+								<li class="mb-2">
+									<div class="resume-degree font-weight-bold">Bachelor of Creative Technologies</div>
+									<div class="resume-degree-org">Media Design School</div>
+									<div class="resume-degree-time">2012 - 2015</div>
+								</li>
+							</ul>
+						</div>
+					</section><!--//education-section-->
+					<section class="resume-section reference-section mb-5">
+						<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Awards</h2>
+						<div class="resume-section-content">
+							<ul class="list-unstyled resume-awards-list">
+								<li class="mb-2 pl-4 position-relative">
+									<i class="resume-award-icon fas fa-trophy position-absolute" data-fa-transform="shrink-2"></i>
+									<div class="resume-award-name">Game of the Year Finalist</div>
+									<div class="resume-award-author"><a
+										href="https://www.awn.com/news/2015-cg-student-awards-winners-announced" target="_blank"><i
+										class="fas fa-link pb-1"></i>CG Student Awards</a></div>
+									<div class="resume-award-desc">In my final year, our team entered with our project Dungeon Town. We
+										were one of four highly recommended games selected by the CGStudent Awards jury.
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="resume-section-content">
+							<ul class="list-unstyled resume-awards-list">
+								<li class="mb-2 pl-4 position-relative">
+									<i class="resume-award-icon fas fa-trophy position-absolute" data-fa-transform="shrink-2"></i>
+									<div class="resume-award-name">Top Student Award</div>
+									<div class="resume-award-author">Media Design School</div>
+									<div class="resume-award-desc">I was presented with the prize for having the highest GPA of my year.
+									</div>
+								</li>
+							</ul>
+						</div>
+					</section><!--//interests-section-->
+					<section class="resume-section language-section mb-5">
+						<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Language</h2>
+						<div class="resume-section-content">
+							<ul class="list-unstyled resume-lang-list">
+								<li class="mb-2"><span class="resume-lang-name font-weight-bold">Swedish</span> <small
+									class="text-muted font-weight-normal">(Native)</small></li>
+								<li class="mb-2"><span class="resume-lang-name font-weight-bold">English</span> <small
+									class="text-muted font-weight-normal">(Fluent)</small></li>
+							</ul>
+						</div>
+					</section><!--//language-section-->
+					<section class="resume-section interests-section mb-5">
+						<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Interests</h2>
+						<div class="resume-section-content">
+							<ul class="list-unstyled">
+								<li class="mb-1">Dungeons & Dragons</li>
+								<li class="mb-1">Baking</li>
+								<li class="mb-1">Weightlifting</li>
+								<li class="mb-1">Warhammer 40k</li>
+							</ul>
+						</div>
+					</section><!--//interests-section-->
+				</div>
+			</div><!--//row-->
+		</div><!--//resume-body-->
 
-	    <footer class="footer text-center pt-2 pb-4">
-		     <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
-	                <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
-	    </footer>
+	</div>
 
-	    
 
-	</body>
+</article>
+
+<footer class="footer text-center pt-2 pb-4">
+	<!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+	<small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com"
+	                                                                          target="_blank">Xiaoying Riley</a> for
+		developers</small>
+</footer>
+
+
+</body>
 </html> 
 
